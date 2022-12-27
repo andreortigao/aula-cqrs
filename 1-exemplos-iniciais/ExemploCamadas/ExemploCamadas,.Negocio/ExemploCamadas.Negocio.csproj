@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>ExemploCamadas.Negocio</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExemploCamadas.Dados\ExemploCamadas.Dados.csproj" />
+    <ProjectReference Include="..\ExemploCamadas.Modelo\ExemploCamadas.Modelo.csproj" />
+  </ItemGroup>
+
+</Project>
